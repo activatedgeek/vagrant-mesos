@@ -13,5 +13,11 @@ apt-get -y purge gcc dkms
 apt-get -y --purge autoremove
 apt-get -y autoclean
 
+# delete ansible related things
+rm -rf .ansible/
+apt-get -y remove --purge ansible
+apt-get -y autoremove
+apt-add-repository -y --remove ppa:ansible/ansible
+
 # dd if=/dev/zero of=/EMPTY bs=1M
 # rm -f /EMPTY
