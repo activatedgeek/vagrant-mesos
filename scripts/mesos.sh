@@ -28,9 +28,9 @@ read -r -d '' PLAYBOOK << EOP
 ---
 - hosts: all
   roles:
+    - common
     - { role: 'mesos', mode: 'master' }
     - { role: 'mesos', mode: 'slave' }
-    - { role: 'consul', mode: 'server' }
 EOP
 echo "$PLAYBOOK" > ./orchestrator/playbook/vagrant-mesos.yml
 
