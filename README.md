@@ -10,15 +10,14 @@ been built to help prototype Mesos cluster on your local development machine.
 ##### For development build
 
 * [Packer](https://www.packer.io) (0.10.0)
-* [Ansible](https://www.ansible.com) (2.0.1)
+* [Ansible](https://www.ansible.com) (2.0.2)
 
 ## Features
 
 This Vagrant Box includes:
-* `Mesos` (0.28+)
-* `Marathon` (0.15+)
-* `Chronos` (2.4.0+)
-* `Consul` (0.6) (as an upstart service `consul-server` in server bootstrapped mode)
+* `Mesos` (0.28.1)
+* `Marathon` (1.1.1)
+* `Chronos` (2.4.0)
 
 All the configurations to this box have been done via the `Orchestrator`
 Ansible routines which are available at
