@@ -1,5 +1,7 @@
 # Vagrant Mesos
 
+**NOTE**: This project has been retired. Fortunately/Unfortunately [DC/OS](https://dcos.io) was made Open-Source. :)
+
 This is the `Mesos` box for `Vagrant` running on `VirtualBox`. This VM box has
 been built to help prototype Mesos cluster on your local development machine.
 
